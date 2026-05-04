@@ -1,0 +1,44 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Test / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS / system files
+.DS_Store
+
+# Logs
+*.log

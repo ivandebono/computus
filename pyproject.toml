@@ -1,0 +1,16 @@
+[project]
+name = "computus"
+version = "0.1.0"
+description = "Historical chronology tools (indiction, calendar systems, etc.)"
+authors = [{ name = "Ivan Debono" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+computus = "computus.cli:main"
